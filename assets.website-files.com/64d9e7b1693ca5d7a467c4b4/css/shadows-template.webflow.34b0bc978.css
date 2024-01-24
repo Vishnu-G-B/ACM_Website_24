@@ -5607,6 +5607,25 @@ blockquote {
   line-height: 1.25em;
 }
 
+.cta-tilte i{
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cta-tilte strong{
+  -webkit-transition: letter-spacing 0.3s ease-in-out;
+  transition: letter-spacing 0.3s ease-in-out;
+}
+
+a.explore:hover .cta-tilte i {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+a.explore:hover .cta-tilte {
+  letter-spacing: 2px;
+}
+
 .cta-container {
   grid-column-gap: .5em;
   grid-row-gap: .5em;
